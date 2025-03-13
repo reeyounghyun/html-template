@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.자바스크립트:다크 모드</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="container">
+        <h1>Dark Mode Example</h1>
+        <p>This is a sample text to demonstrate dark mode.</p>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </div>
+
+    <!-- 방식 1: HTML 파일 하단에 스크립트 배치 -->
+    <!-- <script src="darkmode-bottom.js"></script> -->
+
+    <!-- 방식 2: defer 속성 사용 -->
+    <script defer src="darkmode-defer.js"></script>
+    
+    <!-- 방식 3: window.onload 이벤트 사용 -->
+    <!-- <script src="darkmode-onload.js"></script> -->
+    
+    <!-- 방식 4: DOMContentLoaded 이벤트와 즉시 실행 함수(IIFE) 사용 -->
+    <!-- <script src="darkmode-domready.js"></script> -->
+    
+    <!-- 방식 5: jQuery 사용 예시 (jQuery 라이브러리 필요) -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="darkmode-jquery.js"></script> -->
+    
+</body>
+</html>

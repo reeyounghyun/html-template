@@ -1,0 +1,42 @@
+  /* 공통 스타일 */
+  body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+/* 다크 모드 스타일 */
+#dark-mode {
+    background-color: #222;
+    color: #f0f0f0;
+}
+#dark-mode .container {
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+#dark-mode button {
+    background-color: #45a049;
+}
+#dark-mode button:hover {
+    background-color: #3d8b40;
+}
